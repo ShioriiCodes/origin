@@ -1,0 +1,392 @@
+
+.hamburger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    align-items: center;
+    padding-right: 5%;
+}
+
+
+@media (max-width: 1000px) {
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #333333ca;
+        position: absolute;
+        top: 95%;
+        left: 0;
+        display: none;
+        padding-bottom: 10px;
+    }
+
+    .nav-menu ul.show {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        width: 30%;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        margin: 5px;
+    }
+
+    .nav-menu a {
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .books-grid .synopsis{ 
+        margin-top: -20%;
+        margin-bottom: 20%;
+    }
+
+    .books-grid .name{
+        margin-bottom: 30%;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 70px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .signup-btn{
+        margin: 5px;
+    }
+
+    .services-container h1 {
+        font-size: 28px;
+    }
+
+    .service-item h2 {
+        font-size: 22px;
+    }
+
+    .service-item p {
+        font-size: 15px;
+    }
+
+    .books-grid p{ 
+        margin-top: -10%;
+        margin-bottom: 20%;
+    }
+
+    .book-item a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #333333ca;
+        position: absolute;
+        top: 95%;
+        left: 0;
+        display: none;
+        padding-bottom: 10px;
+    }
+
+    .nav-menu ul.show {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        width: 30%;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        margin: 5px;
+    }
+
+    .nav-menu a {
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .books-grid .synopsis{ 
+        margin-top: -20%;
+        margin-bottom: 20%;
+    }
+
+    .books-grid .name{
+        margin-bottom: 30%;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 60px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .signup-btn{
+        margin: 5px;
+    }
+
+    .services-container h1 {
+        font-size: 28px;
+    }
+
+    .service-item h2 {
+        font-size: 22px;
+    }
+
+    .service-item p {
+        font-size: 15px;
+    }
+
+    .books-grid p{ 
+        margin-top: -10%;
+        margin-bottom: 20%;
+    }
+
+    .book-item a{
+        font-size: 14px;
+    }
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #333333ca;
+        position: absolute;
+        top: 95%;
+        left: 0;
+        display: none;
+        padding-bottom: 10px;
+    }
+
+    .nav-menu ul.show {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        width: 30%;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        margin: 5px;
+    }
+
+    .nav-menu a {
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .books-grid .synopsis{ 
+        margin-top: -20%;
+        margin-bottom: 20%;
+    }
+
+    .books-grid .name{
+        margin-bottom: 30%;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 60px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .signup-btn{
+        margin: 5px;
+    }
+
+    .services-container h1 {
+        font-size: 28px;
+    }
+
+    .service-item h2 {
+        font-size: 22px;
+    }
+
+    .service-item p {
+        font-size: 15px;
+    }
+
+    .books-grid p{ 
+        margin-top: -10%;
+        margin-bottom: 20%;
+    }
+
+    .book-item a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 680px) {
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #333333ca;
+        position: absolute;
+        top: 95%;
+        left: 0;
+        display: none;
+        padding-bottom: 10px;
+    }
+
+    .nav-menu ul.show {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        width: 30%;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        margin: 5px;
+    }
+
+    .nav-menu a {
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .books-grid .synopsis{ 
+        margin-top: -20%;
+        margin-bottom: 20%;
+    }
+
+    .books-grid .name{
+        margin-bottom: 30%;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 55px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .signup-btn{
+        margin: 5px;
+    }
+
+    .services-container h1 {
+        font-size: 28px;
+    }
+
+    .service-item h2 {
+        font-size: 22px;
+    }
+
+    .service-item p {
+        font-size: 15px;
+    }
+
+    .books-grid p{ 
+        margin-top: -10%;
+        margin-bottom: 20%;
+    }
+
+    .book-item a{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 480px){
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo h1{
+        font-size: 16px;
+    }
+
+    .logo img {
+        height: 50px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .search-box input[type="text"] {
+        padding: 10px;
+        width: 90%;
+        border: 2px solid #eb7907;
+        border-radius: 5px;
+    }
+
+    .search-box button {
+        padding: 7px 15px;
+        background-color: #eb7907;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    
+    .search-box button:hover {
+        background-color: #ffb061d0;
+    }
+
+    .books-grid .sypnosis{ 
+        margin-top: -20%;
+        margin-bottom: -20%;
+    }
+
+    .books-grid .name{
+        margin: -10%;
+        margin-bottom: 16%;
+    }
+
+
+}

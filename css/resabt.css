@@ -1,0 +1,318 @@
+
+@media(max-width: 768px){
+    .library-history h2{
+        width: 109%;
+        margin-left: -8%;
+        font-size: 24px;
+    }
+
+    .library-history p{
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mission-vision h3{
+        font-size: 24px;
+    }
+    
+    .mission-vision p{
+        font-size: 16px;
+    }
+
+    .our-team h2{
+        font-size: 24px;
+        margin-top: -3%;
+    }
+
+    .leadership-staff h3{
+        font-size: 24px;
+        margin-top: 3%;
+    }
+
+    .leadership-staff h3, .board-of-trustees h3 {
+        font-size: 24px;
+    }
+
+    .staff-member, .trustee-member {
+        background-color: #ffb061d0;
+        border-radius: 5px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        text-align: center;
+        flex: 1 1 calc(33.333% - 40px);
+        margin: 5px;
+    }
+
+    .staff-member img, .trustee-member img {
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        margin-bottom: 2px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-top: 6px;
+    }
+
+    .staff-member h4, .trustee-member h4 {
+        font-size: 20px;
+        color: #3d3d3d;
+        margin-bottom: 5px;
+    }
+    
+    .staff-member p, .trustee-member p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    #services h2 {
+        color: #eb7907;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .service {
+        background-color: #ffb061d0;
+        padding: 3px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .service h3 {
+        font-size: 1em;
+        margin-bottom: 7px;
+        color: #35424a;
+    }
+    
+    .service p {
+        font-size: .8em;
+        line-height: 1;
+    }
+
+    #policies {
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    .policy {
+        background-color: #ffb061d0;
+        padding: 10px;
+        width: 90%;
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+    
+    .policy h2 {
+        font-size: 1.3em;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        margin: auto;
+    }
+    
+    .policy p {
+        font-size: .9em;
+        line-height: 1.6;
+        margin: auto;
+    }
+    
+    .policy ul {
+        padding-left: 10px;
+        margin: auto;
+    }
+    
+    .policy ul li {
+        margin-bottom: 10px;
+        font-size: 1em;
+        margin: auto;
+    }
+
+    .social-media-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 7px;
+    }
+
+    .social-media-links a {
+        color: #ccc;
+        font-size: 15px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+}
+
+
+@media(max-width: 900px){
+    .library-history h2{
+        width: 109%;
+        margin-left: -8%;
+        font-size: 24px;
+    }
+
+    .library-history p{
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mission-vision h3{
+        font-size: 24px;
+    }
+    
+    .mission-vision p{
+        font-size: 16px;
+    }
+
+    .our-team h2{
+        font-size: 24px;
+        margin-top: -3%;
+    }
+
+    .leadership-staff h3{
+        font-size: 24px;
+        margin-top: 3%;
+    }
+
+    .leadership-staff h3, .board-of-trustees h3 {
+        font-size: 24px;
+    }
+
+    .staff-member, .trustee-member {
+        background-color: #ffb061d0;
+        border-radius: 5px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        text-align: center;
+        flex: 1 1 calc(33.333% - 40px);
+        margin: 5px;
+    }
+
+    .staff-member img, .trustee-member img {
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        margin-bottom: 2px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-top: 6px;
+    }
+
+    .staff-member h4, .trustee-member h4 {
+        font-size: 20px;
+        color: #3d3d3d;
+        margin-bottom: 5px;
+    }
+    
+    .staff-member p, .trustee-member p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    #services h2 {
+        color: #eb7907;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .service {
+        background-color: #ffb061d0;
+        padding: 3px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .service h3 {
+        font-size: 1em;
+        margin-bottom: 7px;
+        color: #35424a;
+    }
+    
+    .service p {
+        font-size: .8em;
+        line-height: 1;
+    }
+
+    #policies {
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    .policy {
+        background-color: #ffb061d0;
+        padding: 10px;
+        width: 90%;
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+    
+    .policy h2 {
+        font-size: 1.3em;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        margin: auto;
+    }
+    
+    .policy p {
+        font-size: .9em;
+        line-height: 1.6;
+        margin: auto;
+    }
+    
+    .policy ul {
+        padding-left: 10px;
+        margin: auto;
+    }
+    
+    .policy ul li {
+        margin-bottom: 10px;
+        font-size: 1em;
+        margin: auto;
+    }
+
+    .social-media-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 7px;
+    }
+
+    .social-media-links a {
+        color: #ccc;
+        font-size: 15px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+}
+
+@media(max-width: 480px){
+
+    .library-history h2{
+        width: 110%;
+        margin-left: -15%;
+    }
+
+    .library-history p{
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mission-vision h3{
+        font-size: 24px;
+    }
+    
+    .mission-vision p{
+        font-size: 16px;
+    }
+    
+}
