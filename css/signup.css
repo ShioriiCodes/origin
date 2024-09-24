@@ -1,317 +1,209 @@
 /* General Styles */
-body {
-    background: url('../image/library1.jpg') no-repeat center center/cover; /* Set your library-themed background image here */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Fixed background while scrolling */
+* {
     margin: 0;
-    padding-top: 35%;
-    padding-bottom: 35%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: url('/image/librarys.png') no-repeat center center/cover;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-family: 'Arial', sans-serif;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    height: 120vh;
 }
 
-header{
-    height: 15vh;
-}
-
-/* Signup Container Styles */
-.signup-container {
-    background: rgba(15, 15, 15, 0.15); /* Glassy effect with a semi-transparent white background */
-    border-radius: 10px;
-    padding: 40px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur(10px); /* Blur effect for the glassy look */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
-    text-align: center;
-    max-width: 500px;
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-
-    margin-top: 7%;
-    margin-bottom: 20px;
-
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the darkness here (0.5 for 50% darker) */
+    z-index: -1;
 }
 
-
-.signup-container h1 {
-    margin-bottom: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    color: #fff;
-}
-
-
-.logo {
-    padding-top: 40px;
+.container {
     display: flex;
+    width: 90%;
+    max-width: 1100px;
+    height: 110vh;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+   
+}
+
+.left-panel {
+    flex: 1;
+    background-color: #2b2d62;
+    color: white;
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.logo img {
-    align-items: center;
-    height: 120px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-/* General Home Icon Styles */
-.home {
-    position: fixed; 
-    top: 20px; 
-    left: 20px;
-    z-index: 1000; 
-}
-
-.home a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #eb7907; 
+    text-align: center;
     padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
-.home a i {
-    color: #fff; 
-    font-size: 24px;
+.left-panel img {
+    max-width: 50%;
+    max-height: auto;
 }
 
-.home a:hover {
-    background-color: #d56707; 
-    transform: scale(1.1); 
+.left-panel h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-left: -20px;
 }
 
-.signup-container{
-    margin-top: 38%;    
-}
-
-.signup-container .home a{
-    text-align: left;
-}
-
-.signup-container p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #fff;
+.right-panel {
+    flex: 1.5;
+    background-color: #eb7907;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
 
 .signup-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    color: #2b2d62;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-form form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
 .signup-form label {
-    text-align: left;
-    font-size: 14px;
-    color: #fff;
-}
-
-.signup-form input {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    background: rgba(255, 255, 255, 0.25); /* Transparent input field */
-    color: #fff;
-}
-
-.signup-form input::placeholder {
-    color: #d1d1d1;
-}
-
-.terms {
-    margin-top: 10px;
-    text-align: left;
-}
-
-.terms a {
-    color: #ffb061d0;
-}
-
-.signup-btn {
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    background-color: #eb7907;
-    color: #fff;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.signup-btn:hover {
-    background-color: #d56707;
-}
-
-.account-info {
-    margin-top: 20px;
-}
-
-.account-info a {
-    color: #ffb061d0;
-    text-decoration: none;
-}
-
-.account-info a:hover {
-    text-decoration: underline;
-}
-
-/* Why Join Us Container Styles */
-.why-join-us-container {
-    max-width: 500px;
-    margin: 20px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.15); /* Glassy effect */
-    border-radius: 10px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
-.benefits-list {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-.benefits-list li {
     margin-bottom: 10px;
+    font-size: 14px;
+    color: #2b2d62;
+}
+
+.signup-form label a {
+    color: #2b2d62;
+}
+
+.signup-form button[type="submit"] {
+    padding: 12px;
+    background-color: #2b2d62;
+    color: white;
+    border: none;
+    border-radius: 4px;
     font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
-.help-section, .security-privacy {
-    margin-top: 20px;
+.signup-form button[type="submit"]:hover {
+    background-color: #1d1e46;
 }
 
-.help-section a {
-    color: #ffb061d0;
+.signup-form p {
+    text-align: center;
+    margin: 15px 0;
+    color: #2b2d62;
+}
+
+.signup-form p a:hover{
+   text-decoration: underline;
+}
+
+.signup-form p a {
+    color: #2b2d62;
     text-decoration: none;
 }
 
-.help-section a:hover {
-    text-decoration: underline;
-}
-
-.security-privacy {
-    font-size: 14px;
-}
-
+/* Responsive Styles */
 @media (max-width: 768px) {
-    .signup-container, .why-join-us-container {
+    .container {
+        flex-direction: column;
+        width: 95%;
+        margin-top: -5%;
+    }
+
+    .left-panel {
         padding: 20px;
+        font-size: 1.8rem;
+    }
+
+    .right-panel {
+        padding: 20px;
+    }
+
+    .signup-form {
+        padding: 30px;
     }
 }
 
-/* Footer Section */
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
-    border-radius: 10px;
-}
+@media (max-width: 480px) {
+    .left-panel h1 {
+        font-size: 1.5rem;
+    }
 
-.footer-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form input[type="password"] {
+        padding: 10px;
+        font-size: 14px;
+    }
 
-.footer-column {
-    text-align: left;
-}
+    .signup-form button[type="submit"] {
+        padding: 10px;
+        font-size: 14px;
+    }
 
-.footer-column h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
+    .signup-form {
+        padding: 20px;
+    }
 }
-
-.social-media-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* 
+.social-login {
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.social-media-links li {
-    display: inline-block;
-}
-
-.social-media-links a {
-    color: #ccc;
-    font-size: 20px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-media-links a:hover {
-    color: #fff;
-}
-
-/* Additional hover effect */
-.social-media-links a:hover i {
-    transform: scale(1.2);
-    transition: transform 0.3s;
-}
-
-.quick-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.quick-links li {
-    margin-bottom: 10px;
-}
-
-.quick-links a {
-    color: #ccc;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-
-.quick-links a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.newsletter-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.newsletter-form input[type="email"] {
-    padding: 10px;
+.social-btn {
+    width: 48%;
+    padding: 12px;
     border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #000000;
-}
-
-.newsletter-form button {
-    padding: 10px;
-    background-color: #007BFF;
+    background-color: #2b2d62;
     color: white;
-    border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
 }
 
-.newsletter-form button:hover {
-    background-color: #0056b3;
-}
-
+.social-btn:hover {
+    background-color: #1d1e46;
+} */
 

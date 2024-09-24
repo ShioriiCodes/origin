@@ -52,14 +52,13 @@ body {
     text-align: left;
 }
 
-
 .login-box {
     background: rgba(255, 255, 255, 0.15);
     border-radius: 10px;
     padding: 40px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
     backdrop-filter: blur(10px); 
--webkit-backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
     text-align: center;
     color: #fff;
     max-width: 400px;
@@ -134,4 +133,23 @@ body {
     .login-box {
         padding: 20px;
     }
+}
+
+.forgot-password {
+    padding-bottom: 10%;
+    margin-top: -10px;
+}
+
+.login-box .forgot-password a {
+    color: #ffb061d0;
+    text-decoration: none;
+    font-size: 14px;
+    align-items: end;
+    text-align: end;
+    float: right
+    
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
 }

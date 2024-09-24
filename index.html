@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elibrarium</title>
+    <link rel="icon" type="image/x-icon" href="/logo/purpeblue.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">   
     <link rel="stylesheet" href="css/resindex.css">   
@@ -19,22 +20,23 @@
         <div class="header-container">
             <!-- Library Name & Logo -->
             <div class="logo">
-                <img src="logo/logo4.png" alt="Library Logo">
-                <h1>Elibrarium</h1>
-                <img src="logo/PSU.png" alt="PSU Logo">
+                <img src="logo/logo2.png" alt="Library Logo">
             </div>
             <!-- Navigation Menu -->
             <nav class="nav-menu">
                 <ul>
                     <li><a href='index.html'>Home</a></li>
-                    <li><a href='catalog.html'>Catalog</a></li>
+                    <li><a href='catalog.html'>Catergory</a></li>
                     <li><a href='service.html'>Services</a></li>
                     <li><a href='contact.html'>Contact Us</a></li>
                     <li><a href='blog.html'>Blog</a></li>
                     <li><a href='about.html'>About Us</a></li>
-                    <li><a class='signup-btn' href='signup.html'>Signup</a></li>
-
+                    <li><a class='signup-btn' href='login.html'>Signin</a></li>
+                        <div class="profile">
+                           <li><a href="#"><img src="/image/user1.png" alt="Profile">Profile</a></li>
+                        </div>
                 </ul>
+                
             </nav>
             <div class="hamburger-menu">
                 <i class="fa-solid fa-bars"></i>
@@ -47,7 +49,6 @@
         <div class="hero-content">
             <h2>Your community's knowledge hub</h2>
             <p>Your dedicated resource center for academic excellence</p>
-            <a href="#" class="cta-button">Browse Catalog</a>
         </div>
     </section>
 
@@ -81,7 +82,7 @@
     </section>
 
     <!-- Library Services Section -->
-    <section class="library-services">
+    <!-- <section class="services-grid">
             <h2>Our Library Services</h2>
             <div class="services-grid">
                 <div class="service-item">
@@ -99,37 +100,60 @@
                     <p>Reserve private study rooms equipped with "DCIT" Wi-Fi and other essential amenities.</p>
                     <a href="#" class="learn-more-link">Learn More</a>
                 </div>
-                <!-- Add more service items as needed -->
             </div>
-        </section>
-x
+        </section> -->
+
+        <div class="project-grid">
+            <h1>Our Library Services</h1>
+            <div class="project-category">
+                <div class="project-row">
+                    <div class="project-item">
+                        <h3>Online Resources</h3>
+                        <p>Access e-books, audiobooks, and online journals from anywhere at any time here in elibrarium.</p>
+                        <a href="#" class="learn-more-link">Learn More</a>
+                    </div>
+                    <div class="project-item">
+                        <h3>Online Resources</h3>
+                        <p>Access e-books, audiobooks, and online journals from anywhere at any time here in elibrarium.</p>
+                        <a href="#" class="learn-more-link">Learn More</a>
+                    </div>
+                    <div class="project-item">
+                        <h3>Study Rooms</h3>
+                        <p>Reserve private study rooms equipped with "DCIT" Wi-Fi and other essential amenities.</p>
+                        <a href="#" class="learn-more-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
    <!-- Testimonials Section -->
    <section class="testimonials">
     <h2>What Our Students Say</h2>
-    <div class="testimonials-grid">
-        <div class="testimonial-item">
-            <img src="image/PIC2.png" alt="John Doe" class="testimonial-img">
-            <div class="testimonial-content">
-                <p class="quote">"The library is my go-to place for research. The staff is always helpful, and the resources are top-notch!"</p>
-                <p class="patron-name">- Mary Joy Layba</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-item">
+                <img src="image/PIC2.png" alt="John Doe" class="testimonial-img">
+                <div class="testimonial-content">
+                    <p class="quote">"The library is my go-to place for research. The staff is always helpful, and the resources are top-notch!"</p>
+                    <p class="patron-name">- Mary Joy Layba</p>
+                </div>
             </div>
-        </div>
-        <div class="testimonial-item">
-            <img src="image/PIC3.png" alt="Jane Smith" class="testimonial-img">
-            <div class="testimonial-content">
-                <p class="quote">"I love the community programs offered here. The workshops have been incredibly valuable for my personal growth."</p>
-                <p class="patron-name">- Justin Paul Cuyos</p>
+            <div class="testimonial-item">
+                <img src="image/PIC3.png" alt="Jane Smith" class="testimonial-img">
+                <div class="testimonial-content">
+                    <p class="quote">"I love the community programs offered here. The workshops have been incredibly valuable for my personal growth."</p>
+                    <p class="patron-name">- Justin Paul Cuyos</p>
+                </div>
             </div>
-        </div>
-        <div class="testimonial-item">
-            <img src="image/PIC4.png" alt="Emily Johnson" class="testimonial-img">
-            <div class="testimonial-content">
-                <p class="quote">"The online resources have been a lifesaver during my studies. I can access everything I need from home."</p>
-                <p class="patron-name">- Jamyca Gualdrapa</p>
+            <div class="testimonial-item">
+                <img src="image/PIC4.png" alt="Emily Johnson" class="testimonial-img">
+                <div class="testimonial-content">
+                    <p class="quote">"The online resources have been a lifesaver during my studies. I can access everything I need from home."</p>
+                    <p class="patron-name">- Jamyca Gualdrapa</p>
+                </div>
             </div>
+            <!-- Add more testimonial items if needed -->
         </div>
-        <!-- Add more testimonial items as needed -->
-    </div>
     <a href="#" class="more-testimonials-link">Read More</a>
 </section>
 
@@ -141,9 +165,6 @@ x
                 <h3>Connect with Us</h3>
                 <ul class="social-media-links">
                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     <li><a href="mailto:info@yourlibrary.com"><i class="fas fa-envelope"></i></a></li>
                     <li><a href="tel:+639123456789"><i class="fas fa-phone"></i></a></li>
                 </ul>
@@ -158,20 +179,12 @@ x
                     <li><a href="https://www.google.com/maps/place/Palawan+State+University+-+Quezon+Campus/@9.228177,118.000758,16.21z/data=!4m6!3m5!1s0x323526109fac9409:0xeea45881671330a3!8m2!3d9.2301187!4d118.0004815!16s%2Fg%2F11bxc679nk?entry=ttu&amp;g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">Site Map</a></li>
                 </ul>
             </div>
-
-            <!-- Newsletter Signup -->
-            <div class="footer-column">
-                <h3>Newsletter Signup</h3>
-                <p>Subscribe to our newsletter for the latest updates.</p>
-                <form action="#" class="newsletter-form">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
         </div>
     </footer>
 
     <script src="javascript/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
 </body>
 

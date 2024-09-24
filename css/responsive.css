@@ -148,7 +148,7 @@
     }
 
     .signup-btn{
-        margin: 5px;
+        margin: 3px 15px;
     }
 
     .services-container h1 {
@@ -164,7 +164,7 @@
     }
 
     .books-grid p{ 
-        margin-top: -10%;
+        margin-top: -5%;
         margin-bottom: 20%;
     }
 
@@ -172,7 +172,6 @@
         font-size: 14px;
     }
 }
-
 
 
 /* Responsive Styles */
@@ -208,8 +207,22 @@
         display: block;
     }
 
+    .availability-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid #000000;
+        color: #000000;
+        border: none;
+        border-radius: 5px;
+        width: 70%;
+        font-size: 16px;
+        
+    }
+
     .books-grid .synopsis{ 
-        margin-top: -20%;
+        margin-top: -10%;
         margin-bottom: 20%;
     }
 
@@ -291,8 +304,7 @@
     }
 
     .books-grid .synopsis{ 
-        margin-top: -20%;
-        margin-bottom: 20%;
+        margin-bottom: 15%;
     }
 
     .books-grid .name{
