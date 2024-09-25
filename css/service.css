@@ -1,22 +1,24 @@
-/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=SUSE:wght@100..800&display=swap');
+
 body {
-    background-image: url('../image/library1.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Fixed background while scrolling */
-    background-color: #f9f9f9; /* Fallback color */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #ffffff;
 }
 
-h1{
+.nav-menu {
+    display: flex;
+    margin-right: 3%;
+}
+
+.nav-menu h1{
     font-size: 24px;
     color: white;
 }
 
-a {
+.nav-menu ul li a {
     color: #ffffff;
     text-decoration: none;
     transition: 0.5s;
@@ -24,28 +26,35 @@ a {
     font-size: 15px;
 }
 
-a:hover {
-    background-color: #eb7907;
+.nav-menu .profile {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 3px 6px;
+    font-size: 15px;
+}
+
+.nav-menu .signup-btn{
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+
+.nav-menu a:hover {
+    background-color: #FC5400;
     border-radius: 2px;
 }
 
-
 /* Header Section */
-header{
-    height: 15vh; 
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: #313131;
-    border-bottom: 1px solid #eb7907;
+    background-color: #131B31;
+    border-bottom: 1px solid #3B9CF4;
     position: fixed;
     z-index: 5;
     width: 100%;
-    
 }
 
 .logo {
@@ -55,7 +64,6 @@ header{
 
 .logo img {
     height: 80px;
-    margin-right: 10px;
     margin-left: 10px;
 }
 
@@ -64,6 +72,7 @@ header{
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
 }
 
 .nav-menu li {
@@ -73,7 +82,7 @@ header{
 /* Signup Button */
 .signup-btn {
     padding: 10px 20px;
-    background-color: #eb7907;
+    background-color: #FC5400;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -84,50 +93,81 @@ header{
 
 .signup-btn{
     margin-right: 10px;
+    padding: 5px 10px;
 }
 
-.signup-btn:hover {
-    background-color: #e89e54;
+.nav-menu .signup-btn:hover {
+    background-color: transparent;
+    border: 1px solid #FC5400;
+    color: #FC5400;
 }
 
+.profile{
+    position: relative;
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 10px;
+}
 
+.profile img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/librarys.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Service*/
 .services-container {
-    max-width: 900px;
+    background: linear-gradient(#131b31bd, #131b3125), url('/image/bg.png');
+    max-width: 600px;
     margin: auto;
-    background: #fff; /* White background for the container */
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    border-radius: 10px;;
     padding: 20px;
 }
 
 /* Heading Styles */
 .services-container h1 {
     font-size: 32px;
-    color: #eb7907; /* Primary color for main heading */
+    color: #ffffff; 
     margin-bottom: 20px;
     text-align: center;
 }
 
 /* Service Item Styles */
+
 .service-item {
     margin-bottom: 30px;
     padding: 20px;
-    border-left: 5px solid #ffb061d0; /* Accent color for service item border */
-    background-color: #f9f9f9; /* Light background for service items */
+    border-left: 5px solid #FC5400;
+    background-color: #131b31; 
     border-radius: 5px;
 }
 
 .service-item h2 {
     font-size: 24px;
-    color: #eb7907; /* Primary color for subheadings */
+    color: #ffffff; 
     margin-bottom: 10px;
 }
 
 .service-item p {
     font-size: 16px;
-    color: #666; /* Secondary text color */
+    color: #ffffff; 
     line-height: 1.6;
 }
 
@@ -136,16 +176,15 @@ header{
 .services-containers {
     max-width: 900px;
     margin: 40px auto;
-    background: #fff; /* White background for the container */
+    background: transparent; 
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
 }
 
 /* Heading Styles */
 .services-containers h1 {
     font-size: 36px;
-    color: #eb7907; /* Primary color for the main heading */
+    color: #ffffff; 
     margin-bottom: 30px;
     text-align: center;
 }
@@ -154,27 +193,27 @@ header{
 .service-items {
     margin-bottom: 40px;
     padding: 20px;
-    border-left: 6px solid #ffb061d0; /* Accent color for service item border */
-    background-color: #fdfdfd; /* Slightly lighter background for service items */
+    border-left: 6px solid #FC5400; 
+    background-color: #131b31; 
     border-radius: 8px;
 }
 
 .service-items h2 {
     font-size: 26px;
-    color: #eb7907; /* Primary color for subheadings */
+    color: #ffffff; 
     margin-bottom: 15px;
 }
 
 .service-items p {
     font-size: 18px;
-    color: #666; /* Secondary text color */
+    color: #ffffff; 
     line-height: 1.7;
     margin-bottom: 20px;
 }
 
 .service-items h3 {
     font-size: 22px;
-    color: #eb7907; /* Secondary subheading color */
+    color: #ffffff; 
     margin-bottom: 10px;
 }
 
@@ -185,7 +224,7 @@ header{
 
 .communication-options li {
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
@@ -193,7 +232,7 @@ header{
 
 .communication-options li::before {
     content: '•';
-    color: #ffb061d0; /* Accent color for list bullet */
+    color: #FC5400; /* Accent color for list bullet */
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -216,109 +255,4 @@ header{
     .service-item h3 {
         font-size: 20px;
     }
-}
-
-
-
-/* Footer Section */
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
-}
-
-.footer-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-column {
-    text-align: left;
-}
-
-.footer-column h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.social-media-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 15px;
-}
-
-.social-media-links li {
-    display: inline-block;
-}
-
-.social-media-links a {
-    color: #ccc;
-    font-size: 20px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-media-links a:hover {
-    color: #fff;
-}
-
-/* Additional hover effect */
-.social-media-links a:hover i {
-    transform: scale(1.2);
-    transition: transform 0.3s;
-}
-
-.quick-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.quick-links li {
-    margin-bottom: 10px;
-}
-
-.quick-links a {
-    color: #ccc;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-
-.quick-links a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.newsletter-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.newsletter-form input[type="email"] {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #ffffff;
-}
-
-.newsletter-form button {
-    padding: 10px;
-    background-color: #d27111;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.newsletter-form button:hover {
-    background-color: #dc954f;
 }

@@ -19,41 +19,13 @@ body {
     background: rgba(0, 0, 0, 0.5); 
 }
 
-/* General Home Icon Styles */
-.home {
-    position: fixed; 
-    top: 20px;
-    left: 20px;
-    z-index: 1000; 
-}
-
-.home a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #eb7907; 
-    padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.home a i {
-    color: #fff; 
-    font-size: 24px; 
-}
-
-.home a:hover {
-    background-color: #ff871e; 
-    transform: scale(1.1);
-}
-
 
 .signup-container .home a{
     text-align: left;
 }
 
 .login-box {
-    background: rgba(255, 255, 255, 0.15);
+    background: #131b3197;
     border-radius: 10px;
     padding: 40px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
@@ -90,7 +62,7 @@ body {
     border: none;
     outline: none;
     font-size: 16px;
-    background: rgba(255, 255, 255, 0.25); /* Transparent input field */
+    background: rgba(255, 255, 255, 0.25);
     color: #fff;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: auto;
@@ -102,10 +74,10 @@ body {
 
 .login-btn {
     width: 100%;
-    padding: 12px;
+    padding: 8px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #eb7907;
+    background-color: #FC5400;
     color: #fff;
     font-size: 18px;
     cursor: pointer;
@@ -113,15 +85,60 @@ body {
 }
 
 .login-btn:hover {
-    background-color: #d56707;
+    background-color: #6a2300;
 }
 
+/* Cancel */
+.nav{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.cancel-btn {
+    padding: 10px 20px;
+    background-color: #1d2e5e;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    justify-content: center;
+    text-align: center;
+}
+
+.nav .cancel-btn{
+    padding: 10px 175px;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: #071b4f;
+    border-radius: 2px;
+}
+
+/* Sign up */
 .signup-link {
     margin-top: 20px;
 }
 
 .signup-link a {
-    color: #ffb061d0;
+    color: #FC5400;
     text-decoration: none;
 }
 
@@ -141,13 +158,12 @@ body {
 }
 
 .login-box .forgot-password a {
-    color: #ffb061d0;
+    color: #FC5400;
     text-decoration: none;
     font-size: 14px;
     align-items: end;
     text-align: end;
     float: right
-    
 }
 
 .forgot-password a:hover {

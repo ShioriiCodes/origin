@@ -7,8 +7,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Our Blog</title>
-    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="/css/blog.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="/logo/logo.ico">
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="styleshee">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,131 +20,100 @@
         <div class="header-container">
              <!-- Library Name & Logo -->
             <div class="logo">
-                <img src="logo/logo3.png" alt="Library Logo">
-                <h1>Elibrarium</h1>
-                <img src="logo/PSU.png" alt="PSU Logo">
+                <img src="logo/logo2.png" alt="Library Logo">
             </div>
             <!-- Navigation Menu -->
             <nav class="nav-menu">
                 <ul>
                     <li><a href='index.html'>Home</a></li>
-                    <li><a href='catalog.html'>Catalog</a></li>
-                    <li><a href='service.html'>Services</a></li>
-                    <li><a href='contact.html'>Contact Us</a></li>
-                    <li><a href='blog.html'>Blog</a></li>
+                    <li><a href='catalog.html'>Catergory</a></li>
+                    <li><a href='blog.html'>Anouncement</a></li>
                     <li><a href='about.html'>About Us</a></li>
-                    <li><a class='signup-btn' href='signup.html'>Signup</a></li>
+                    <li><a class='signup-btn' href='login.html'>Signin</a></li>
+                        <div class="profile">
+                           <li><a href="#"><img src="/image/user1.png" alt="Profile">Profile</a></li>
+                        </div>
                 </ul>
-            </nav>
             <div class="hamburger-menu">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
     </header>
 
-    <!--Blog-->
-    <div class="blog-container">
-        <div class="blog-header">
-            <h1>Welcome to Our Blog!</h1>
-            <p>Stay Updated with the Latest in e-books and books</p>
-        </div>
+        <!-- Main Content -->
+        <main>
+            <!-- Header with Image -->
+            <header class="hero">
+                <div class="overlay">
+                    <h1>Your community's knowledge hub</h1>
+                    <p>Your dedicated resource center for academic excellence</p>
+                </div>
+            </header>
+            <!-- Grid Posts Section -->
+            <section class="post-grid">
+                <div class="post-item">
+                    <img src="/image/6.png" alt="PSU">
+                    <h2>Palawan State University - Q.C </h2>
+                    <p>Where the location of our campus</p>
+                </div>
+                <div class="post-item">
+                    <img src="/image/3.png" alt="Library">
+                    <h2>Library</h2>
+                    <p>Our library is where you can find the library</p>
+                </div>
+                <div class="post-item">
+                    <img src="/image/5.png" alt="Librarian">
+                    <h2>Librarian</h2>
+                    <p>where our librarian is stationed</p>
+                </div>
+                <div class="post-item">
+                    <img src="/image/2.png" alt="BSIT Books">
+                    <h2>BSIT Books</h2>
+                    <p>This the finished books of our IT capstone project</p>
+                </div>
+                <div class="post-item">
+                    <img src="/image/4.png" alt="September">
+                    <h2>Other Books</h2>
+                    <p>Other academic books you can read here</p>
+                </div>
+                <div class="post-item">
+                    <img src="/image/1.png" alt="Getting Lost">
+                    <h2>Books of what you need</h2>
+                    <p>Is not a waste of time</p>
+                </div>
+            </section>
+            <!-- Additional Section with Text -->
+            <section class="additional-content">
+                <p>Embarking on a journey to the world of knowledge...</p>
+                <img src="/image/psu.jpg" alt="Road">
+            </section>
+        </main>
 
-        <section class="blog-intro">
-            <p>Here at Elibrarium, we're passionate about sharing valuable insights, tips, and updates on [Your Field/Topic]. Our blog is your go-to resource for staying informed and inspired. Whether you're a seasoned expert or just starting out, you'll find something here to help you stay ahead.</p>
-        </section>
-
-        <section class="blog-content">
-            <h2>What You’ll Find Here:</h2>
-            <div class="blog-section">
-                <h3>Expert Tips and Tricks</h3>
-                <p>Get the best advice from professionals in the field. Our detailed guides and how-to articles are designed to help you improve your skills and knowledge.</p>
+          <!-- Footer Section -->
+          <footer class="footer">
+            <div class="footer-container">
+                <!-- Social Media Links with Icons -->
+                <div class="icon">
+                    <h3>Connect with Us</h3>
+                    <ul class="social-media-links">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="mailto:info@yourlibrary.com"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="tel:+639123456789"><i class="fas fa-phone"></i></a></li>
+                    </ul>
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="quick-links">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="https://www.google.com/maps/place/Palawan+State+University+-+Quezon+Campus/@9.228177,118.000758,16.21z/data=!4m6!3m5!1s0x323526109fac9409:0xeea45881671330a3!8m2!3d9.2301187!4d118.0004815!16s%2Fg%2F11bxc679nk?entry=ttu&amp;g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">Site Map</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="blog-section">
-                <h3>In-Depth Tutorials</h3>
-                <p>Explore our step-by-step tutorials that cover a wide range of topics. Perfect for both beginners and advanced users looking to deepen their understanding.</p>
-            </div>
-            <div class="blog-section">
-                <h3>Industry News and Updates</h3>
-                <p>Stay current with the latest trends, news, and updates in [Your Field/Topic]. We cover what's happening now and what to expect in the future.</p>
-            </div>
-            <div class="blog-section">
-                <h3>Success Stories</h3>
-                <p>Read inspiring stories from people who have achieved remarkable things in [Your Field/Topic]. Learn from their experiences and find motivation for your own journey.</p>
-            </div>
-            <div class="blog-section">
-                <h3>Community Spotlights</h3>
-                <p>Meet and learn from other members of our community. We love showcasing the talent and creativity of our readers and contributors.</p>
-            </div>
-        </section>
-    </div>
-
-    <!---Featured-->
-    <section class="featured-posts">
-        <h2>Featured Posts</h2>
-    
-        <div class="post">
-            <h3>[Post Title 1]</h3>
-            <p class="post-date">Date: [Publication Date]</p>
-            <p class="post-excerpt">Excerpt: [Brief summary or intriguing quote from the post]</p>
-            <a href="%5bLink%20to%20full%20post%5d.html" class="read-more">Read More</a>
-        </div>
-    
-        <div class="post">
-            <h3>[Post Title 2]</h3>
-            <p class="post-date">Date: [Publication Date]</p>
-            <p class="post-excerpt">Excerpt: [Brief summary or intriguing quote from the post]</p>
-            <a href="%5bLink%20to%20full%20post%5d.html" class="read-more">Read More</a>
-        </div>
-    
-        <div class="post">
-            <h3>[Post Title 3]</h3>
-            <p class="post-date">Date: [Publication Date]</p>
-            <p class="post-excerpt">Excerpt: [Brief summary or intriguing quote from the post]</p>
-            <a href="%5bLink%20to%20full%20post%5d.html" class="read-more">Read More</a>
-        </div>
-    </section>
-    
-    <!---Join us-->
-    <section class="join-conversation">
-        <h2>Join the Conversation!</h2>
-        <p>We encourage you to leave comments, share your thoughts, and engage with our content. 
-            Your feedback is valuable and helps us create even better posts. 
-            Don't forget to subscribe to our newsletter for the latest updates and exclusive content delivered straight to your inbox.</p>
-        <div class="social-media">
-            <h3>Follow Us on Social Media:</h3>
-            <ul>
-                <li><a href="%5bFacebook%20Link%5d.html" target="_blank">Facebook</a></li>
-                <li><a href="%5bTwitter%20Link%5d.html" target="_blank">Twitter</a></li>
-                <li><a href="%5bInstagram%20Link%5d.html" target="_blank">Instagram</a></li>
-                <li><a href="%5bLinkedIn%20Link%5d.html" target="_blank">LinkedIn</a></li>
-            </ul>
-            <ul class="icons">
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            </ul>
-        </div>
-    </section>
-    
-    <section class="about-us">
-        <h2>About Us</h2>
-        <p>At Elibrarium, we're dedicated to [Your Mission/Goals]. Our team of [Your Team Description] works tirelessly to bring you the most relevant and engaging content. 
-            <a href='about.html' target='_blank'>Learn more about us</a>.</p>
-    </section>
-    
-    <footer class="blog-footer">
-        <p>Thank you for visiting our blog. We hope you find our posts helpful and inspiring. Happy reading!</p>
-    </footer>
-    
-    <script>
-        // JavaScript to handle menu toggle
-        document.querySelector('.hamburger-menu').addEventListener('click', function() {
-            document.querySelector('.nav-menu ul').classList.toggle('show');
-        });
-    </script>
+        </footer>
+    <script src="javascript/script.js"></script>
     
 </body>
-
-<!-- Mirrored from gleaming-starburst-eb6f6a.netlify.app/blog by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Sep 2024 15:16:12 GMT -->
 </html>

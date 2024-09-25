@@ -35,7 +35,7 @@ body::before {
     width: 90%;
     max-width: 1100px;
     height: 110vh;
-    background-color: white;
+    background-color: #fc540000;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
@@ -44,7 +44,7 @@ body::before {
 
 .left-panel {
     flex: 1;
-    background-color: #2b2d62;
+    background-color: #19274f9f;
     color: white;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ body::before {
 }
 
 .left-panel img {
-    max-width: 50%;
+    max-width: 80%;
     max-height: auto;
 }
 
@@ -66,8 +66,8 @@ body::before {
 
 .right-panel {
     flex: 1.5;
-    background-color: #eb7907;
-    padding: 10px 20px;
+    background-color: #fc540097;
+    padding: 10px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,13 +77,13 @@ body::before {
 
 .signup-form {
     background-color: white;
-    padding: 40px;
+    padding: 20px 40px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .signup-form h2 {
-    color: #2b2d62;
+    color: #131B31;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -106,16 +106,17 @@ body::before {
 .signup-form label {
     margin-bottom: 10px;
     font-size: 14px;
-    color: #2b2d62;
+    color: #131B31;
 }
 
 .signup-form label a {
-    color: #2b2d62;
+    color: #131B31;
+    margin-bottom: 15px;
 }
 
 .signup-form button[type="submit"] {
     padding: 12px;
-    background-color: #2b2d62;
+    background-color: #0f1d43;
     color: white;
     border: none;
     border-radius: 4px;
@@ -125,13 +126,13 @@ body::before {
 }
 
 .signup-form button[type="submit"]:hover {
-    background-color: #1d1e46;
+    background-color: #19274f;
 }
 
 .signup-form p {
     text-align: center;
     margin: 15px 0;
-    color: #2b2d62;
+    color: #131B31;
 }
 
 .signup-form p a:hover{
@@ -139,7 +140,7 @@ body::before {
 }
 
 .signup-form p a {
-    color: #2b2d62;
+    color: #131B31;
     text-decoration: none;
 }
 
@@ -186,6 +187,7 @@ body::before {
         padding: 20px;
     }
 }
+
 /* 
 .social-login {
     display: flex;

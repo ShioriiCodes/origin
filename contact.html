@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/rescon.css">
+    <link rel="icon" type="image/x-icon" href="/logo/logo.ico">
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="styleshee">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,20 +22,20 @@
             <div class="header-container">
                 <!-- Library Name & Logo -->
                 <div class="logo">
-                    <img src="logo/logo3.png" alt="Library Logo">
+                    <img src="logo/logo2.png" alt="Library Logo">
                     <h1>Elibrarium</h1>
-                    <img src="logo/PSU.png" alt="PSU Logo">
                 </div>
                 <!-- Navigation Menu -->
                 <nav class="nav-menu">
                     <ul>
                         <li><a href='index.html'>Home</a></li>
-                        <li><a href='catalog.html'>Catalog</a></li>
-                        <li><a href='service.html'>Services</a></li>
-                        <li><a href='contact.html'>Contact Us</a></li>
-                        <li><a href='blog.html'>Blog</a></li>
+                        <li><a href='catalog.html'>Catergory</a></li>
+                        <li><a href='blog.html'>Anouncement</a></li>
                         <li><a href='about.html'>About Us</a></li>
-                        <li><a class='signup-btn' href='signup.html'>Signup</a></li>
+                        <li><a class='signup-btn' href='login.html'>Signin</a></li>
+                            <div class="profile">
+                               <li><a href="#"><img src="/image/user1.png" alt="Profile">Profile</a></li>
+                            </div>
                     </ul>
                 </nav>
                 <div class="hamburger-menu">
@@ -43,9 +44,9 @@
             </div>
         </header>
 
-    <div class="contact-container">
-        <h1>Contact Us</h1>
-
+   <section class="hero">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
         <div class="contact-info">
             <h2>Library Address</h2>
             <p>
@@ -56,48 +57,23 @@
             <p>Phone: (123) 456-7890</p>
             <p>Email: <a href="mailto:info@library.com">info@library.com</a></p>
         </div>
+            <div class="contact-form">
+                <h2>Contact Form</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                <!---Library Hours-->
-                <div class="library-hours">
-                    <h2>Library Hours</h2>
-                    <h3>Operating Hours</h3>
-                    <ul>
-                        <li>Monday: 9:00 AM - 5:00 PM</li>
-                        <li>Tuesday: 9:00 AM - 8:00 PM</li>
-                        <li>Wednesday: 9:00 AM - 8:00 PM</li>
-                        <li>Thursday: 9:00 AM - 8:00 PM</li>
-                        <li>Friday: 9:00 AM - 5:00 PM</li>
-                        <li>Saturday: 10:00 AM - 4:00 PM</li>
-                        <li>Sunday: Closed</li>
-                    </ul>
-        
-                    <h3>Special Hours</h3>
-                    <p>Extended hours during final exams week:</p>
-                    <ul>
-                        <li>Monday - Thursday: 9:00 AM - 10:00 PM</li>
-                        <li>Friday: 9:00 AM - 8:00 PM</li>
-                        <li>Saturday: 10:00 AM - 6:00 PM</li>
-                        <li>Sunday: 12:00 PM - 6:00 PM</li>
-                    </ul>
-                </div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-        <div class="contact-form">
-            <h2>Contact Form</h2>
-            <form action="#" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
-    </div>
-
+    </section>
 
          <!-- Footer Section -->
          <footer class="footer">
@@ -107,9 +83,6 @@
                     <h3>Connect with Us</h3>
                     <ul class="social-media-links">
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         <li><a href="mailto:info@yourlibrary.com"><i class="fas fa-envelope"></i></a></li>
                         <li><a href="tel:+639123456789"><i class="fas fa-phone"></i></a></li>
                     </ul>

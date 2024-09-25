@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/resabt.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="icon" type="image/x-icon" href="/logo/logo.ico">
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,20 +25,19 @@
         <div class="header-container">
             <!-- Library Name & Logo -->
             <div class="logo">
-                <img src="logo/logo4.png" alt="Library Logo">
-                <h1>Elibrarium</h1>
-                <img src="logo/PSU.png" alt="PSU Logo">
+                <img src="logo/logo2.png" alt="Library Logo">
             </div>
             <!-- Navigation Menu -->
             <nav class="nav-menu">
                 <ul>
                     <li><a href='index.html'>Home</a></li>
-                    <li><a href='catalog.html'>Catalog</a></li>
-                    <li><a href='service.html'>Services</a></li>
-                    <li><a href='contact.html'>Contact Us</a></li>
-                    <li><a href='blog.html'>Blog</a></li>
+                    <li><a href='catalog.html'>Catergory</a></li>
+                    <li><a href='blog.html'>Anouncement</a></li>
                     <li><a href='about.html'>About Us</a></li>
-                    <li><a class='signup-btn' href='signup.html'>Signup</a></li>
+                    <li><a class='signup-btn' href='login.html'>Signin</a></li>
+                        <div class="profile">
+                           <li><a href="#"><img src="/image/user1.png" alt="Profile">Profile</a></li>
+                        </div>
                 </ul>
             </nav>
             <div class="hamburger-menu">
@@ -44,143 +46,149 @@
         </div>
     </header>
 
+
     <!-- About Us Page Content -->
-    <div class="container">
-        <section class="overview">
-            <div class="library-history">
-                <h2>Library History</h2>
-                <p>The library has been an integral part of our community for over a decades. Established in [Date/year], <br>
-                    it began as a small reading room and has grown into a vast repository of knowledge and resources. <br>
-                    Over the years, the library has adapted to the changing needs of the community, <br>
-                    offering not only books but also digital resources, educational programs, and a space for social and cultural events.</p>
+    <section class="about-us">
+        <div class="hero-section">
+            <h1>Get a Chance to know About Us and <span class="highlight">Relive Our Journey</span></h1>
+            <p>Meet our dynamic team and discover the roadmap to success as we will let you know how we work.</p>
+            <button>Let's talk</button>
+            <img src="/image/team.jpg" alt="Team photo" class="team-photo">
+        </div>
+    
+        <div class="metrics">
+            <div class="metric">
+                <h2>1k+</h2>
+                <p>Customers</p>
             </div>
-            <div class="mission-vision">
-                <div class="mission">
-                    <h3>Our Mission</h3>
-                    <p>
-                        Palawan State University is<br>
-                        commited to upgrade people's<br>
-                        quality of life by providing<br>
-                        education opportunities<br>
-                        through excellent instruction,<br>
-                        rearch and innovation,<br>
-                        extension, production services,<br>
-                    </p>
-                </div>
-
-                <div class="vision">
-                    <h3>Our Vision</h3>
-                    <p>
-                        An internationally<br>
-                        recognized University that<br>
-                        provides relevant and<br>
-                        innovative education and<br>
-                        research for a lifelong<br>
-                        learning and sustainable<br>
-                        development
-                    </p>
-                </div>
+            <div class="metric">
+                <h2>4.9</h2>
+                <p>Clutch Rating</p>
             </div>
-        </section>
-    </div>
-
-      <!-- Our Team Section -->
-      <div class="about-us-container">
-        <section class="our-team">
-            <h2>Our Team</h2>
-
-            <!-- Leadership & Staff Profiles -->
-            <div class="leadership-staff">
-                <h3>Leadership & Staff</h3>
-                <div class="staff-profiles">
-                    <div class="staff-member">
-                        <img src="image/PIC5.jpg" alt="Leadership Member Name">
-                        <h4>Alyza Urdelas</h4>
-                        <p>Library Director</p>
-                        <p>John has over 20 years of experience in library management and is dedicated to fostering a love of learning in the community.</p>
+            <div class="metric">
+                <h2>4.8</h2>
+                <p>Trustpilot Rating</p>
+            </div>
+            <div class="metric">
+                <h2>33+</h2>
+                <p>Countries Served</p>
+            </div>
+        </div>
+    
+        <div class="executives">
+            <h2>Meet our Inspiring Executives</h2>
+            <div class="executive-profile">
+                <img src="/image/PIC2.png" alt="Danish Wadhwa" class="profile-img">
+                <div class="profile-details">
+                    <h3>MJ</h3>
+                    <p>A good students need a sauce</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="/logo/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="/logo/gmail.png" alt="Gamil"></a>
+                        <a href="#"><img src="/logo/call.png" alt="Call"></a>
                     </div>
-                    <div class="staff-member">
-                        <img src="image/PIC6.jpg" alt="Staff Member Name">
-                        <h4>Jeanamae E. Escalante</h4>
-                        <p>Head of Digital Services</p>
-                        <p>Jane is passionate about technology and leads our digital initiatives to provide accessible online resources for all patrons.</p>
-                    </div>
-                    <!-- Add more staff members as needed -->
                 </div>
             </div>
-
-            <!-- Board of Trustees -->
-            <div class="board-of-trustees">
-                <h3>Board of Trustees</h3>
-                <div class="trustee-profiles">
-                    <div class="trustee-member">
-                        <img src="image/PIC1.png" alt="Trustee Member Name">
-                        <h4>Kent Dulman</h4>
-                        <p>Chairperson</p>
-                        <p>Emily has been a board member for 10 years, guiding the library's strategic planning and community outreach efforts.</p>
+    
+            <div class="executive-profile">
+                <img src="/image/PIC4.png" alt="Chehak Wadhwa" class="profile-img">
+                <div class="profile-details">
+                    <h3>Jam</h3>
+                    <p>Jam make the creative sessions for project kick-offs.</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="/logo/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="/logo/gmail.png" alt="Gamil"></a>
+                        <a href="#"><img src="/logo/call.png" alt="Call"></a>
                     </div>
-                    <div class="trustee-member">
-                        <img src="image/PIC2.png" alt="Trustee Member Name">
-                        <h4>Mary Joy Layba</h4>
-                        <p>Board Member</p>
-                        <p>Michael brings his expertise in finance to the board, ensuring the library's financial stability and growth.</p>
-                    </div>
-                    <!-- Add more trustee members as needed -->
                 </div>
             </div>
-        </section>
-    </div>
-
-    <section id="services">
-        <h2>Library Services Overview</h2>
-        <div class="service">
-            <h3>Reference Services</h3>
-            <p>Get help with research, find information, and get answers to your questions.</p>
-        </div>
-        <div class="service">
-            <h3>Online Resources</h3>
-            <p>Access e-books, databases, and digital collections from anywhere at any time.</p>
-        </div>
-        <div class="service">
-            <h3>Study Rooms</h3>
-            <p>Reserve private study rooms for group work or individual study sessions.</p>
-        </div>
-        <div class="service">
-            <h3>Children's Programs</h3>
-            <p>Participate in storytime, crafts, and other educational activities for children.</p>
-        </div>
-        <div class="service">
-            <h3>Community Events</h3>
-            <p>Attend workshops, lectures, and other events organized by the library.</p>
         </div>
     </section>
 
-    <section id="policies">
-        <div><h1>Policies</h1></div>
-
-        <div class="policy" id="internet">
-            <h2>Internet & Computer Use Policy</h2>
-            <p>Guidelines for accessing the library's computers and internet resources.</p>
-            <ul>
-                <li><strong>Computer Access:</strong> Available to all members with a library card.</li>
-                <li><strong>Session Limits:</strong> Computer sessions are limited to 1 hour during peak times.</li>
-                <li><strong>Appropriate Use:</strong> Users must follow the library's code of conduct and avoid accessing inappropriate content.</li>
-                <li><strong>Wi-Fi Access:</strong> Free Wi-Fi is available throughout the library premises.</li>
-            </ul>
+        <!-- Services page -->
+    <section class="hero">
+        <div class="services-container">
+            <h1>Our Library Services</h1>
+        
+            <div class="service-item">
+                <h2>Digital Resources</h2>
+                <p>Access our extensive digital collections, including e-books, online journals, and databases. Our digital resources are available 24/7 and can be accessed remotely with your library card.</p>
+            </div>
+        
+            <div class="service-item">
+                <h2>Research Assistance</h2>
+                <p>Our reference librarians are here to help you with your research needs. Whether you're looking for specific information or need guidance on using our resources, we're here to assist you.</p>
+            </div>
         </div>
 
-        <div class="policy" id="privacy">
-            <h2>Privacy Policy</h2>
-            <p>We are committed to protecting the privacy of our users.</p>
-            <ul>
-                <li><strong>Data Collection:</strong> We collect only the information necessary to provide library services.</li>
-                <li><strong>Confidentiality:</strong> Personal information is kept confidential and is not shared without consent.</li>
-                <li><strong>Online Privacy:</strong> Our website uses encryption to protect users' data.</li>
-                <li><strong>Access to Records:</strong> Users can view their own borrowing history and personal information.</li>
-            </ul>
+
+        <div class="services-containers">
+            <h1>Library Services</h1>
+
+            <div class="service-items">
+                <h2>Ask a Librarian</h2>
+                <p>Our librarians are here to help you find the information you need. Whether you’re searching for books, articles, newspapers, or websites, we provide the guidance to make your search easier and more effective.</p>
+                <h3>Live Chats and Messages</h3>
+                <p>Need immediate assistance? Connect with our librarians through various channels:</p>
+                <ul class="communication-options">
+                    <li><strong>Live Chat:</strong> Chat with a librarian in real-time.</li>
+                    <li><strong>Text Messages:</strong> Send us a text and get quick answers.</li>
+                    <li><strong>Email:</strong> Reach out via email for detailed inquiries.</li>
+                    <li><strong>Phone:</strong> Call us during library hours for direct assistance.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h1>Contact Us</h1>
+                <ul>
+                    <li>
+                        <img src="https://img.icons8.com/color/48/000000/marker.png"/>
+                        <span><strong>ADDRESS</strong><br><a href="https://www.google.com/maps/place/Palawan+State+University+-+Quezon+Campus/@9.2274813,118.0037287,20.32z/data=!4m6!3m5!1s0x323526109fac9409:0xeea45881671330a3!8m2!3d9.2301187!4d118.0004815!16s%2Fg%2F11bxc679nk?entry=ttu&g_ep=EgoyMDI0MDkyMi4wIKXMDSoASAFQAw%3D%3D" class="address">
+                                                             Palawan State University - Q.C </a> </span>
+                    </li>
+                    <li> 
+                        <img src="https://img.icons8.com/color/48/000000/phone.png"/>
+                        <span><strong>PHONE</strong><br>+880 123 4567 890</span>
+                    </li>
+                    <li>
+                        <img src="https://img.icons8.com/color/48/000000/domain.png"/>
+                        <span><strong>WEBSITE</strong><br>www.demo.com</span>
+                    </li>
+                </ul>
+                <div class="social-media">
+                    <p>Follow Us</p>
+                    <div class="icons">
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                        <a href="#" class="email"><img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000"/></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Send Message</h2>
+                <form>
+                    <label for="name">Name <span>*</span></label>
+                    <div class="name-fields">
+                        <input type="text" id="first-name" name="first-name" placeholder="First" required>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last" required>
+                    </div>
+                    
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
       <!-- Footer Section -->
       <footer class="footer">
@@ -190,9 +198,6 @@
                 <h3>Connect with Us</h3>
                 <ul class="social-media-links">
                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     <li><a href="mailto:info@yourlibrary.com"><i class="fas fa-envelope"></i></a></li>
                     <li><a href="tel:+639123456789"><i class="fas fa-phone"></i></a></li>
                 </ul>
@@ -207,25 +212,10 @@
                     <li><a href="https://www.google.com/maps/place/Palawan+State+University+-+Quezon+Campus/@9.228177,118.000758,16.21z/data=!4m6!3m5!1s0x323526109fac9409:0xeea45881671330a3!8m2!3d9.2301187!4d118.0004815!16s%2Fg%2F11bxc679nk?entry=ttu&amp;g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">Site Map</a></li>
                 </ul>
             </div>
-
-            <!-- Newsletter Signup -->
-            <div class="footer-column">
-                <h3>Newsletter Signup</h3>
-                <p>Subscribe to our newsletter for the latest updates.</p>
-                <form action="#" class="newsletter-form">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
         </div>
     </footer>
 
     <script src="javascript/script.js"> </script>
 
-
-
 </body>
-
-
-<!-- Mirrored from gleaming-starburst-eb6f6a.netlify.app/about by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Sep 2024 15:16:17 GMT -->
 </html>
