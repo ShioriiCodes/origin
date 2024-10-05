@@ -1,0 +1,84 @@
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+:root {
+    --orange: #fd722c;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+    --darkblue: #131B31;
+    --dlue: #243460;
+    --blue: #0056b3;
+    --blueh:#004494;
+  }
+
+.dashboard {
+    max-width: 800px;
+    margin: auto;
+    background: var(--darkblue);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 2%;
+}
+
+.dashboard h1 {
+    text-align: center;
+    color: var(--grey);
+}
+
+.section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: var(--white);
+}
+
+.section h2 {
+    color: var(--white);
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+    color: var(--white);
+}
+
+.section ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section ul li:last-child {
+    border-bottom: none;
+}
+
+#send-alert {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#send-alert:hover {
+    background-color: var(--blueh);
+}
+

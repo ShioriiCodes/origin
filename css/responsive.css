@@ -8,6 +8,9 @@
     padding-right: 5%;
 }
 
+.logo h1{
+    color: #ffffff;
+}
 
 @media (max-width: 1000px) {
     .nav-menu ul {

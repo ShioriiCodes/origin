@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!--  Styles  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/syscontrol.css">
+
+</head>
+
+<body>
+    <!--  Navigation  -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="titles"><img src="assets/imgs/PIC2.png" alt="Admin Image"></span>
+                    </a>
+                       <h4>Admin Name</h4> 
+                </li>
+                <li>
+                    <a href="user.html">
+                        <span class="icon"><ion-icon name="apps-outline"></ion-icon></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+              
+                <!-- <li>
+                    <a href="bookcat.html">
+                        <span class="icon"><ion-icon name="library-outline"></ion-icon></span>
+                        <span class="title">Books Inventory</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="/actover.html">
+                        <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></span>
+                        <span class="title">Activity Overview</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/upload.html">
+                        <span class="icon"><ion-icon name="cloud-upload-outline"></ion-icon></span>
+                        <span class="title">Uploads</span>
+                    </a>
+                </li>
+              
+                <li>
+                    <a href="/syscontrol.html">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="title">Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="information-circle-outline"></ion-icon></span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/index.html">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                        <span class="title">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--  Main  -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="/assets/logo/logo2.png">
+                </div>
+            </div>
+
+            <!-- Dashboard -->
+            <div class="dashboard">
+                <h1>System Settings and Controls</h1>
+        
+                <div class="section">
+                    <h2>Manage Staff Accounts</h2>
+                    <form id="staff-form">
+                        <label for="staff-name">Staff Name:</label>
+                        <input type="text" id="staff-name" placeholder="Enter staff name" required>
+                        
+                        <label for="staff-email">Staff Email:</label>
+                        <input type="email" id="staff-email" placeholder="Enter staff email" required>
+                        
+                        <label for="staff-role">Role:</label>
+                        <select id="staff-role">
+                            <option value="librarian">Librarian</option>
+                            <option value="assistant">Assistant</option>
+                            <option value="admin">Admin</option>
+                        </select>
+        
+                        <button type="submit">Add Staff</button>
+                        <button type="button" id="remove-staff">Remove Staff</button>
+                    </form>
+                    <div id="staff-list">
+                        <h3>Current Staff:</h3>
+                        <ul id="staff-accounts"></ul>
+                    </div>
+                </div>
+        
+                <div class="section">
+                    <h2>Settings</h2>
+                    <form id="settings-form">
+                        <label for="library-rules">Library Rules:</label>
+                        <textarea id="library-rules" rows="4" placeholder="Enter library rules"></textarea>
+        
+                        <label for="notification-preferences">Notification Preferences:</label>
+                        <select id="notification-preferences">
+                            <option value="email">Email</option>
+                            <option value="sms">SMS</option>
+                            <option value="both">Both</option>
+                        </select>
+        
+                        <button type="submit">Save Settings</button>
+                    </form>
+                </div>
+        
+                <div class="section">
+                    <h2>Data Backup and Restore</h2>
+                    <button id="backup-button">Backup Data</button>
+                    <button id="restore-button">Restore Data</button>
+                    <p id="backup-message"></p>
+                </div>
+            </div>
+
+          
+    <!--  Scripts   -->
+    <script src="js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/user.js"></script>
+
+    <!--  ionicons  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

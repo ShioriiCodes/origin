@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/actover.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="titles"><img src="assets/imgs/PIC2.png" alt=""></span>
+                    </a>
+                    <h4>Admin Name</h4>
+                </li>
+                <li>
+                    <a href="user.html">
+                        <span class="icon"><ion-icon name="apps-outline"></ion-icon></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+              
+                <!-- <li>
+                    <a href="bookcat.html">
+                        <span class="icon"><ion-icon name="library-outline"></ion-icon></span>
+                        <span class="title">Books Inventory</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="/actover.html">
+                        <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></span>
+                        <span class="title">Activity Overview</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/upload.html">
+                        <span class="icon"><ion-icon name="cloud-upload-outline"></ion-icon></span>
+                        <span class="title">Uploads</span>
+                    </a>
+                </li>
+              
+                <li>
+                    <a href="/syscontrol.html">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="title">Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="information-circle-outline"></ion-icon></span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/index.html">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                        <span class="title">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--  Main  -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="/assets/logo/logo2.png">
+                </div>
+            </div>
+
+            <!-- activity overview -->
+            <div class="dashboard">
+                <h1>Library Activity Overview</h1>
+        
+                <div class="section">
+                    <h2>Total Visitors</h2>
+                    <p id="total-visitors">Number of visitors: <span>1200</span></p>
+                </div>
+        
+                <div class="section">
+                    <h2>Events or Announcements</h2>
+                    <ul>
+                        <li>'''' - Month/Day/Year</li>
+                        <li>'''' - Month/Day/Year</li>
+                        <li>'''' - Month/Day/Year</li>
+                    </ul>
+                    <button id="send-alert">Send Announcements</button>
+                </div>
+        
+                <!-- <div class="section">
+                    <h2>System Alerts</h2>
+                    <ul>
+                        <li>No system errors reported.</li>
+                        <li>Maintenance scheduled for ''.</li>
+                    </ul>
+                    <button id="send-alert">Send Announcements</button>
+                </div> -->
+            </div>
+            
+        <!-- Script -->
+        <script src="js/script.js"></script>
+        <script src="/assets/js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

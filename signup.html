@@ -28,8 +28,10 @@
                     <input type="text" name="lastName" placeholder="Last Name" required>
                     <input type="email" name="email" placeholder="Email" required>
                     <input type="text" name="address" placeholder="Address">
-                    <input type="password" name="password" placeholder="Create Password" required>
-                    <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+                    <input type="password" id="password" name="password" placeholder="Create Password" required>
+                    <label class="show">
+                        <input type="checkbox" id="showPassword">
+                    </label>
                     <label>
                         <input type="checkbox" name="terms" required> Creating your account means accepting our <a href="#">Terms & Conditions</a>.
                     </label>
@@ -43,6 +45,8 @@
             </div>
         </div>
     </div>
+
+    <script src="/javascript/showpass.js"></script>
       
 </body>
 
